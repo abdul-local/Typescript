@@ -1,0 +1,19 @@
+{
+  "name": "Typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "rm -rf build/ && tsc.cmd",
+    "ts": "rm -rf build/ && tsc.cmd -w",
+    "dev":"node build/src/enum.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.4"
+  }
+}
